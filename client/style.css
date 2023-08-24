@@ -1,0 +1,179 @@
+/* Basic styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #272626;
+  color:burlywood;
+}
+
+
+.header{
+color:antiquewhite;
+height:222px;
+width:100%;
+background-size: cover;
+
+  background-image:url("https://preikestolenbasecamp.com/wp-content/uploads/2021/05/Sauna_boat_Preikestolen_Basecamp.jpeg");
+}
+
+.header h1{
+
+  padding:3%;
+}
+/* Style for month buttons container */
+#month-buttons-container {
+  display: flex;
+  margin-left:5%;
+  margin-top:3%;
+
+}
+
+/* Style for individual month button */
+.month-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition:0.55s
+}
+
+.month-button:Hover {
+  padding: 10px 20px;
+  background-color: #7e1bcf;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Style for selected month button */
+.month-button.selected {
+  background-color: #e74c3c;
+}
+
+
+/* Style for date and time selection tables */
+#availability-table {
+
+
+
+}
+
+.booking-form{
+position: absolute;
+top:400px;
+width:5%;
+height:55vh;
+left:72%;
+   border-style: solid;
+   border-right:0px;
+   border-top:0px;
+   border-bottom:0px;
+}
+
+/* Style for date and time selection tables */
+.date-time-table {
+
+  margin-left:5%;
+width:33%;
+  border-collapse: collapse;
+  margin-top: 33px;
+  
+}
+
+/* Style for individual selectable date */
+.selectable-date,
+.selectable-time {
+ 
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+/* Style for selected date */
+.selectable-date:hover,
+.selectable-time:hover {
+  background-color: #34d5db;
+  color: #fff;
+}
+
+/* Style for selected date */
+.selectable-date.selected,
+.selectable-time.selected {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Style for selected date */
+.selectable-date.selected:hover,
+.selectable-time.selected:hover {
+  background-color: #7434db;
+  color: #fff;
+}
+
+
+
+#date-table{
+
+  max-width:33%;
+}
+
+/* Style for book button */
+#book-button {
+  position:relative;
+  left:81%;
+  top:0px;
+  padding: 42px 42px;
+  background-color: #b37a26;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius:9px;
+}
+
+/* Style for message box */
+#message-box {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+
+/* Add this to your CSS */
+.selectable-time.unavailable {
+  background-color: #f2f2f2; /* Set your desired background color here */
+}
+
+
+
+
+.bookings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bookings-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #141414;
+  color:burlywood;
+}
+
+
+#booked_items_list{
+display:none;
+min-height:111px;
+background: #333;
+width:55%;
+}
+
+
+.highlight {
+  background-color: darkred;
+}
+
+.bookTitle {
+  padding-top:2%;
+padding-left:5%;
+}
